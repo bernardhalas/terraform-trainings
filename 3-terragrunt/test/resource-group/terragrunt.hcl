@@ -4,7 +4,7 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/rg-module?ref=feature/add-terragrunt-session"
+  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/rg-module?ref=main"
 }
 
 inputs = {
