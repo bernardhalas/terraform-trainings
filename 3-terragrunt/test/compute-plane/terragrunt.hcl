@@ -4,7 +4,7 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/vm-module?ref=feature/add-terragrunt-session"
+  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/vm-module?ref=master"
 }
 
 dependency control-plane {
