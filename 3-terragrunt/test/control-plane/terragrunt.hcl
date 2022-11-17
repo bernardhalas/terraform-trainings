@@ -4,7 +4,7 @@ include "root" {
 }
 
 terraform {
-  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/vm-module?ref=master"
+  source = "git::https://github.com/bernardhalas/terraform-trainings.git//2-modules/vm-module?ref=main"
 }
 
 dependency connectivity {
